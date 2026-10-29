@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xon-M7-h8R">
+    <device id="retina4_7" orientation="portrait" appearance="light" />
+    <dependencies>
+        <deployment identifier="iOS" />
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084" />
+        <capability name="Safe area layout guides" minToolsVersion="9.0" />
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0" />
+    </dependencies>
+    <scenes>
+        <scene sceneID="Yce-hx-9lK">
+            <objects>
+                <viewController id="Xon-M7-h8R" sceneMemberID="viewController" customClass="PlayerViewController" customModule="Fieldtone" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="E9t-1C-yKf">
+                        <rect key="frame" x="0" y="0" width="375" height="667" />
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="fFD-xt-v9q" userLabel="Player Stack">
+                                <rect key="frame" x="20" y="93.5" width="335" height="500" />
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" image="cover_soft_focus" translatesAutoresizingMaskIntoConstraints="NO" id="mZ5-gx-DGD" userLabel="Track Cover">
+                                        <rect key="frame" x="0" y="0" width="335" height="335" />
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="mZ5-gx-DGD" secondAttribute="height" multiplier="1:1" id="Fcp-0h-rkD" />
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="iTN-Pt-b2u" userLabel="Track Information">
+                                        <rect key="frame" x="0" y="359" width="335" height="65" />
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soft Focus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgS-qG-pP7">
+                                                <rect key="frame" x="0" y="0" width="335" height="40.5" />
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34" />
+                                                <color key="textColor" red="0.1333333" green="0.1607843" blue="0.1372549" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <nil key="highlightedColor" />
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mira Vale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEm-gR-sPw">
+                                                <rect key="frame" x="0" y="44.5" width="335" height="20.5" />
+                                                <fontDescription key="fontDescription" type="system" pointSize="17" />
+                                                <color key="textColor" red="0.3529412" green="0.3921569" blue="0.3529412" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <nil key="highlightedColor" />
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ytY-YD-RTN" userLabel="Playback Controls">
+                                        <rect key="frame" x="0" y="448" width="335" height="52" />
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNK-1X-Xr2" userLabel="Previous">
+                                                <rect key="frame" x="0" y="0" width="103.5" height="52" />
+                                                <color key="backgroundColor" red="0.9058824" green="0.9137255" blue="0.8745098" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <color key="tintColor" red="0.145098" green="0.1960784" blue="0.1607843" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <inset key="contentEdgeInsets" minX="10" minY="17" maxX="10" maxY="17" />
+                                                <state key="normal" image="backward.fill" catalog="system" />
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <real key="value" value="26" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="previousTapped:" destination="Xon-M7-h8R" eventType="touchUpInside" id="2wW-yL-pbz" />
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEb-3e-sqg" userLabel="Play or Pause">
+                                                <rect key="frame" x="115.5" y="0" width="104" height="52" />
+                                                <color key="backgroundColor" red="0.145098" green="0.1960784" blue="0.1607843" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <color key="tintColor" red="0.9803922" green="0.9764706" blue="0.9490196" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <inset key="contentEdgeInsets" minX="10" minY="17" maxX="10" maxY="17" />
+                                                <state key="normal" image="play.fill" catalog="system" />
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <real key="value" value="26" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="playPauseTapped:" destination="Xon-M7-h8R" eventType="touchUpInside" id="2AL-vx-gVL" />
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0M-I9-ysF" userLabel="Next">
+                                                <rect key="frame" x="231.5" y="0" width="103.5" height="52" />
+                                                <color key="backgroundColor" red="0.9058824" green="0.9137255" blue="0.8745098" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <color key="tintColor" red="0.145098" green="0.1960784" blue="0.1607843" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                                                <inset key="contentEdgeInsets" minX="10" minY="17" maxX="10" maxY="17" />
+                                                <state key="normal" image="forward.fill" catalog="system" />
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <real key="value" value="26" />
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="nextTapped:" destination="Xon-M7-h8R" eventType="touchUpInside" id="9mE-Tp-8ts" />
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="w0v-su-L0z" />
+                        <color key="backgroundColor" red="0.9686275" green="0.9607843" blue="0.9333333" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                        <constraints>
+                            <constraint firstItem="fFD-xt-v9q" firstAttribute="leading" secondItem="w0v-su-L0z" secondAttribute="leading" constant="20" id="Wpf-7g-Tv8" />
+                            <constraint firstItem="w0v-su-L0z" firstAttribute="trailing" secondItem="fFD-xt-v9q" secondAttribute="trailing" constant="20" id="ynY-SL-mqB" />
+                            <constraint firstItem="fFD-xt-v9q" firstAttribute="centerY" secondItem="w0v-su-L0z" secondAttribute="centerY" id="Cnb-4r-hMJ" />
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="coverView" destination="mZ5-gx-DGD" id="x8W-vQ-6fu" />
+                        <outlet property="titleLabel" destination="wgS-qG-pP7" id="pO3-7a-cbR" />
+                        <outlet property="artistLabel" destination="bEm-gR-sPw" id="VrE-te-s3K" />
+                        <outlet property="previousButton" destination="RNK-1X-Xr2" id="TkD-wv-ZPo" />
+                        <outlet property="playPauseButton" destination="EEb-3e-sqg" id="nV5-oB-Gjy" />
+                        <outlet property="nextButton" destination="z0M-I9-ysF" id="qSl-K1-h5G" />
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxD-hI-hWQ" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="0" y="0" />
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backward.fill" width="128" height="79" catalog="system" />
+        <image name="cover_soft_focus" width="1024" height="1024" />
+        <image name="forward.fill" width="128" height="79" catalog="system" />
+        <image name="play.fill" width="116" height="128" catalog="system" />
+    </resources>
+</document>

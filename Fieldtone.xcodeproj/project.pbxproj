@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		7508EF28938C079BDC9AE35F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AppDelegate.swift;
+			sourceTree = "<group>";
+		};
+		4A773E63CD4BFAB804764554 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SceneDelegate.swift;
+			sourceTree = "<group>";
+		};
+		D914B67D92EF8D51B9235205 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TrackLibrary.swift;
+			sourceTree = "<group>";
+		};
+		1060589C1C53A2B7780CC946 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PlayerViewController.swift;
+			sourceTree = "<group>";
+		};
+		926EA5B7ABB8FC104D903431 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PlayerUITests.swift;
+			sourceTree = "<group>";
+		};
+		7B594B6DB375E1BF3F23CDD6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		28AAD1477D5182D66D4B03B3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		9CED6649BEE206312F28FEE4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.storyboard;
+			path = "Base.lproj/Main.storyboard";
+			sourceTree = "<group>";
+			name = Base;
+		};
+		188A3F273D6D132B1CC3219E = {
+			isa = PBXVariantGroup;
+			children = (
+				9CED6649BEE206312F28FEE4,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DF63D93A9C39A05F8C8AD29 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.storyboard;
+			path = "Base.lproj/LaunchScreen.storyboard";
+			sourceTree = "<group>";
+			name = Base;
+		};
+		D1D02FD418598B99C947A877 = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF63D93A9C39A05F8C8AD29,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF83151E5446C2169EE932C1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = soft_focus.m4a;
+			sourceTree = "<group>";
+		};
+		BC5D9DC77DBE072C2D67E8AD = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = tidal_glass.m4a;
+			sourceTree = "<group>";
+		};
+		3C5D13948F70A4C135C73F18 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = ochre_sky.m4a;
+			sourceTree = "<group>";
+		};
+		A4E5C64B827B959545E113A4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = folded_light.m4a;
+			sourceTree = "<group>";
+		};
+		DCD4DDB375ACE1A25D45CB51 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = open_water.m4a;
+			sourceTree = "<group>";
+		};
+		66A5A0E5C9E90378BDACE0CB = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = faint_signal.m4a;
+			sourceTree = "<group>";
+		};
+		E578A14ABAEE4F92A302CBB2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = slow_arc.m4a;
+			sourceTree = "<group>";
+		};
+		0EEE2497100B87EE94E175D7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = parallel_lines.m4a;
+			sourceTree = "<group>";
+		};
+		FC8FBE504107BF0DF8265516 = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = lunar_echo.m4a;
+			sourceTree = "<group>";
+		};
+		EBFE43C013AFAB5CD212871C = {
+			isa = PBXFileReference;
+			lastKnownFileType = audio.m4a;
+			path = night_ferry.m4a;
+			sourceTree = "<group>";
+		};
+		F288734485747323BD75BEBF = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = Fieldtone.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41628BAC4A425A63459EA110 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = FieldtoneUITests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			isa = PBXGroup;
+			children = (
+				F288734485747323BD75BEBF,
+				41628BAC4A425A63459EA110,
+			);
+			sourceTree = "<group>";
+			name = Products;
+		};
+		ACDAC205F5E24CB75113C4B2 = {
+			isa = PBXGroup;
+			children = (
+				AF83151E5446C2169EE932C1,
+				BC5D9DC77DBE072C2D67E8AD,
+				3C5D13948F70A4C135C73F18,
+				A4E5C64B827B959545E113A4,
+				DCD4DDB375ACE1A25D45CB51,
+				66A5A0E5C9E90378BDACE0CB,
+				E578A14ABAEE4F92A302CBB2,
+				0EEE2497100B87EE94E175D7,
+				FC8FBE504107BF0DF8265516,
+				EBFE43C013AFAB5CD212871C,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		40155127E934BB29FAC4401F = {
+			isa = PBXGroup;
+			children = (
+				7508EF28938C079BDC9AE35F,
+				4A773E63CD4BFAB804764554,
+				D914B67D92EF8D51B9235205,
+				1060589C1C53A2B7780CC946,
+				188A3F273D6D132B1CC3219E,
+				D1D02FD418598B99C947A877,
+				28AAD1477D5182D66D4B03B3,
+				ACDAC205F5E24CB75113C4B2,
+				7B594B6DB375E1BF3F23CDD6,
+			);
+			path = Fieldtone;
+			sourceTree = "<group>";
+		};
+		62C97EF6533C3D97DC4AB921 = {
+			isa = PBXGroup;
+			children = (
+				926EA5B7ABB8FC104D903431,
+			);
+			path = FieldtoneUITests;
+			sourceTree = "<group>";
+		};
+		8EC9A00BFD09B3190AC6B222 = {
+			isa = PBXFileReference;
+			lastKnownFileType = net.daringfireball.markdown;
+			path = README.md;
+			sourceTree = "<group>";
+		};
+		0C06DB59DA29D1AE228065E0 = {
+			isa = PBXGroup;
+			children = (
+				40155127E934BB29FAC4401F,
+				62C97EF6533C3D97DC4AB921,
+				8EC9A00BFD09B3190AC6B222,
+				FE0A091FDBFB3E9C31B7A1BD,
+			);
+			sourceTree = "<group>";
+		};
+		BFD315016DE16320F7E2120C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D8C0C6B1D22EA8C7669B263 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D7731714D3E69D68AA8D7ED = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD315016DE16320F7E2120C,
+				1D8C0C6B1D22EA8C7669B263,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A77CD648711364E9A877D62 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Fieldtone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fieldtone.player;
+			};
+			name = Debug;
+		};
+		066776A1C212750E8BE506A2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Fieldtone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fieldtone.player;
+			};
+			name = Release;
+		};
+		B5E4F9F7C53A9A6AF99DBCE3 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A77CD648711364E9A877D62,
+				066776A1C212750E8BE506A2,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651D637619756FF1A8400F67 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fieldtone.player.uitests;
+				TEST_TARGET_NAME = Fieldtone;
+			};
+			name = Debug;
+		};
+		93D1ABD72F8ECFF4A5798A0D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fieldtone.player.uitests;
+				TEST_TARGET_NAME = Fieldtone;
+			};
+			name = Release;
+		};
+		DAFE6B4AE7F615235D51AC8B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651D637619756FF1A8400F67,
+				93D1ABD72F8ECFF4A5798A0D,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B8AEAAF815B24C94FFF9CE = {
+			isa = PBXBuildFile;
+			fileRef = 7508EF28938C079BDC9AE35F;
+		};
+		050A2EC378AC25426F252981 = {
+			isa = PBXBuildFile;
+			fileRef = 4A773E63CD4BFAB804764554;
+		};
+		BBA9512E592BFD5B58EEA3C3 = {
+			isa = PBXBuildFile;
+			fileRef = D914B67D92EF8D51B9235205;
+		};
+		823DD710966E5F584C7F4BA1 = {
+			isa = PBXBuildFile;
+			fileRef = 1060589C1C53A2B7780CC946;
+		};
+		168017323B2122379789DCFF = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B8AEAAF815B24C94FFF9CE,
+				050A2EC378AC25426F252981,
+				BBA9512E592BFD5B58EEA3C3,
+				823DD710966E5F584C7F4BA1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2533570C2D64FC989C84740 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFF0ADA29BF28488744474B = {
+			isa = PBXBuildFile;
+			fileRef = 188A3F273D6D132B1CC3219E;
+		};
+		CDC52C06DD343A667EB6ECE0 = {
+			isa = PBXBuildFile;
+			fileRef = D1D02FD418598B99C947A877;
+		};
+		3580E55C3E122D8E88D57F48 = {
+			isa = PBXBuildFile;
+			fileRef = 28AAD1477D5182D66D4B03B3;
+		};
+		BE54520F0D91D07F5192B4DB = {
+			isa = PBXBuildFile;
+			fileRef = AF83151E5446C2169EE932C1;
+		};
+		95D6485D92E769594305780D = {
+			isa = PBXBuildFile;
+			fileRef = BC5D9DC77DBE072C2D67E8AD;
+		};
+		CFC690C246B722598AADCC27 = {
+			isa = PBXBuildFile;
+			fileRef = 3C5D13948F70A4C135C73F18;
+		};
+		B78A5B33388FFCB00302651C = {
+			isa = PBXBuildFile;
+			fileRef = A4E5C64B827B959545E113A4;
+		};
+		2165DFC297EF933ABEFDB8AB = {
+			isa = PBXBuildFile;
+			fileRef = DCD4DDB375ACE1A25D45CB51;
+		};
+		7986DE287AC566FD7BFF6393 = {
+			isa = PBXBuildFile;
+			fileRef = 66A5A0E5C9E90378BDACE0CB;
+		};
+		5DDE086F1474DE75762D915E = {
+			isa = PBXBuildFile;
+			fileRef = E578A14ABAEE4F92A302CBB2;
+		};
+		B18F4A54B35D526A12D72DFE = {
+			isa = PBXBuildFile;
+			fileRef = 0EEE2497100B87EE94E175D7;
+		};
+		D2B4E7F35F2A9A05271A84DB = {
+			isa = PBXBuildFile;
+			fileRef = FC8FBE504107BF0DF8265516;
+		};
+		69CF0EFC804C9C65E54AF903 = {
+			isa = PBXBuildFile;
+			fileRef = EBFE43C013AFAB5CD212871C;
+		};
+		8B3CF8E87C9099180E5CF488 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFF0ADA29BF28488744474B,
+				CDC52C06DD343A667EB6ECE0,
+				3580E55C3E122D8E88D57F48,
+				BE54520F0D91D07F5192B4DB,
+				95D6485D92E769594305780D,
+				CFC690C246B722598AADCC27,
+				B78A5B33388FFCB00302651C,
+				2165DFC297EF933ABEFDB8AB,
+				7986DE287AC566FD7BFF6393,
+				5DDE086F1474DE75762D915E,
+				B18F4A54B35D526A12D72DFE,
+				D2B4E7F35F2A9A05271A84DB,
+				69CF0EFC804C9C65E54AF903,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84950E39B47000300FCFB175 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E4F9F7C53A9A6AF99DBCE3;
+			buildPhases = (
+				168017323B2122379789DCFF,
+				D2533570C2D64FC989C84740,
+				8B3CF8E87C9099180E5CF488,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Fieldtone;
+			productName = Fieldtone;
+			productReference = F288734485747323BD75BEBF;
+			productType = "com.apple.product-type.application";
+		};
+		EB215501B80C519533EBC4C4 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F4DA8D93E88A08220E03B7;
+			proxyType = 1;
+			remoteGlobalIDString = 84950E39B47000300FCFB175;
+			remoteInfo = Fieldtone;
+		};
+		80B3971C01DC6509F9529601 = {
+			isa = PBXTargetDependency;
+			target = 84950E39B47000300FCFB175;
+			targetProxy = EB215501B80C519533EBC4C4;
+		};
+		F3EDC4F28152786ED6AD8D8A = {
+			isa = PBXBuildFile;
+			fileRef = 926EA5B7ABB8FC104D903431;
+		};
+		AF5EC3B5654F404D539C8BF7 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EDC4F28152786ED6AD8D8A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1932A47DCCD68C9F52EE1F40 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99CBB62B0C5023387B721B4 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63A51A8EE9A9CF547C96F94 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFE6B4AE7F615235D51AC8B;
+			buildPhases = (
+				AF5EC3B5654F404D539C8BF7,
+				1932A47DCCD68C9F52EE1F40,
+				A99CBB62B0C5023387B721B4,
+			);
+			buildRules = ();
+			dependencies = (
+				80B3971C01DC6509F9529601,
+			);
+			name = FieldtoneUITests;
+			productName = FieldtoneUITests;
+			productReference = 41628BAC4A425A63459EA110;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F6F4DA8D93E88A08220E03B7 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					84950E39B47000300FCFB175 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D63A51A8EE9A9CF547C96F94 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 84950E39B47000300FCFB175;
+					};
+				};
+			};
+			buildConfigurationList = 5D7731714D3E69D68AA8D7ED;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C06DB59DA29D1AE228065E0;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84950E39B47000300FCFB175,
+				D63A51A8EE9A9CF547C96F94,
+			);
+		};
+	};
+	rootObject = F6F4DA8D93E88A08220E03B7;
+}
